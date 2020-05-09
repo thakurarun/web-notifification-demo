@@ -1,7 +1,9 @@
 # important notes
 
 > angular service worker only supported on https or localhost (127.0.0.1:80)
+
 > Obtain VAPID keys at https://web-push-codelab.glitch.me/
+
 > Set VAPID keys in appsettings.json, like,
 
 "Vapid": {
