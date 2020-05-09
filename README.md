@@ -4,6 +4,8 @@
 
 > Obtain VAPID keys at https://web-push-codelab.glitch.me/
 
+> sample is using SqlLocalDB.msi for test DB 
+
 > Set VAPID keys in appsettings.json, like,
 
 "Vapid": {
