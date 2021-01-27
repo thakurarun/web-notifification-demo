@@ -47,12 +47,12 @@ export class AppComponent implements OnInit {
     this.result = "";
     await this.http
       .post("http://localhost:13884/send/arunktha", <PushNotification>{
-        title: "Good day!!!",
+        title: "ALUSTA message",
         body: this.message,
         icon: "/assets/icons/icon-144x144.png",
         actions: [
-          { action: "/do/something/", title: "Do something" },
-          { action: "/do/something/", title: "Do something again" },
+          { action: "/do/something/", title: "Approve" },
+          { action: "/do/something/", title: "Reject" },
         ],
       })
       .toPromise();

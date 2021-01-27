@@ -7,6 +7,7 @@ using pushnotificationservice.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 namespace pushnotificationservice.Services
 {
@@ -53,6 +54,7 @@ namespace pushnotificationservice.Services
 
         public async Task Send(string userId, ClientNotification clientNotification)
         {
+            Thread.Sleep(TimeSpan.FromSeconds(5));
             await Send(userId, new PushMessage(JsonConvert.SerializeObject(clientNotification)));
         }
 

@@ -21,3 +21,7 @@ ng build --prod
 # install http-server if not installed
 
 npx http-server ./dist/my-ng-app -o
+
+# Remove subscription from browser
+
+chrome://settings/content/notifications?search=Notifications
