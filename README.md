@@ -5,6 +5,7 @@
 > Obtain VAPID keys at https://web-push-codelab.glitch.me/
 
 > sample is using SqlLocalDB.msi for test DB 
+-- use server name to connect : (localdb)\MSSQLLocalDB
 
 > Set VAPID keys in appsettings.json, like,
 
